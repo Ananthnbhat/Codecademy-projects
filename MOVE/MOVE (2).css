@@ -1,0 +1,166 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+.main .btn{
+  text-decoration:none;
+  border:0px solid black;
+  color:#fff;
+  background-color:#1c1c1c;
+  padding:8px 30px;
+ margin-left:44%;
+  margin-top:100px;
+}
+.btn:hover{
+  background-color:orange;
+  transition:background .4s;
+}
+
+.container {
+
+  margin: 0 auto;
+   
+}
+
+/* Main */
+.main {
+  height: 600px;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#fff;
+}
+
+.main h1 {
+  font-size: 150px;
+  color:#f9f0f0;
+  margin:0;
+ text-align:center;
+}
+
+.main p {
+  font-size: 18px;
+  text-align:center;
+  
+}
+
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 30px 0 70px;
+  background-color:#1c1c1c;
+  
+}
+.supporting .container .col {
+  float: left;
+  width: 28%;
+  padding: 10px;}
+
+
+
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* Feature */
+.feature {
+  height: 600px;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg");
+  background-size:1500px 900px;
+  background-repeat:no-repeat;
+  text-align:center;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  padding:50px 0 0;
+}
+
+/* Footer */
+.footer {
+  
+  background-image:url("https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg");
+ background-size: cover;
+height: 600px;
+text-align: center; 
+}
+.footer .btn{ text-decoration:none;
+  border:0px solid black;
+  color:#fff;
+  background-color:#1c1c1c;
+ padding:8px 30px;
+  text-transform:uppercase;
+}
+  
+
+
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
