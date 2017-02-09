@@ -17,6 +17,8 @@ html, body {
   margin: 0;
   text-transform:upercase;
 }
+.image{
+width:300px;}
 
 .nav ul {
   margin: 0 0 30px;
