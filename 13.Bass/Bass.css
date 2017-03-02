@@ -1,0 +1,130 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron{
+  background-image:url("https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg");
+  background-size:cover;
+  height:560px;
+  background-color:black;
+  padding-top: 48px;
+  
+}
+
+.jumbotron .row .col-md-3 a
+{
+  margin-right:50px;
+  
+}
+
+.jumbotron .header .pull-right li {
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 40px;
+  padding-right:30px;
+}
+
+
+.pull-right {
+  float:righht !important;
+  text-decoration:none;
+  list-style:none;
+  
+}
+
+.pull-right a{
+  color:white;
+}
+.pull-right .a{
+  float:left; 
+}
+
+.pull-right .b{
+  border:0px solid red;
+  background-color:red;
+  padding:8px 30px;
+  border-radius:2px;
+}
+
+.pull-right .a:hover{
+  text-decoration:underline;
+}
+
+.pull-right .b:hover{
+  color:black;
+  text-decoration:none;
+}
+
+
+
+.jumbotron .main{
+  color:white;
+}
+
+.main h1{
+  padding-top:60px;
+}
+
+
+.supporting-1 .container{
+  max-width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.supporting-2 .container{
+  max-width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.supporting-3 .container{
+  max-width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.supporting-4 {
+    background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    height: 380px;
+}
+
+.supporting-1, .supporting-2, .supporting-3, .supporting-4 {
+    padding: 70px 30px;
+    background-color:black;
+    color:white;
+    margin-top:0px;
+}
+
+.footer{
+  background-color:black;
+  color:white;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+  
+}
+
+.footer .container ul li a{
+  color:white;
+}
+
+.footer .container {
+  max-width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

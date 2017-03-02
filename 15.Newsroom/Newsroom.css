@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+    background: #000;
+    min-height: 80px;
+}
+.header img{
+  margin: 15px 0 0 0;
+}
+.header .search-form input {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    height: 30px;
+    width: 240px;
+}
+.header .search {
+    float: right;
+    margin: 25px 0 0 0;
+}
+.header .search .search-btn{
+  background:transparent;
+  border:0;
+  color:#fff;
+  border-bottom: 1px solid #1a77ff;
+  height: 30px;
+  margin: 0 0 0 10px;
+  padding: 0 10px;
+}
+.header .search-form input:hover{
+  border-bottom: 1px solid #1a77ff;
+}
+
+
+
+.menu {
+    background: #152230;
+    min-height: 40px;
+    list-style:none;
+    color:white;
+}
+.menu ul{
+  list-style:none;
+}
+.menu .container 
+{
+    width:1170px;  
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu ul.nav li:hover, .menu ul.nav li.active 
+{
+    background-color: #1a77ff;
+}
+.menu ul.nav li a {
+    color: #fff;
+   
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #1a77ff;
+}
+
+
+
+.main{
+  background-image:url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg");
+  background-size:cover;
+  height:500px;
+}
+.main .row{
+  color:white;
+  margin-top:35px;
+}
+.main .row h2 span{
+  border-bottom: 3px solid #1a77ff;
+}
+
+
+.supporting{
+  background-color: 	rgb(200,200,200);
+}
+.supporting .row {
+    margin: 50px 0;
+}
+.supporting .row .col-md-8 {
+    background-color: #fff;
+    padding: 20px 40px 40px 40px;
+}
+.supporting .row ul {
+    list-style: none;
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+.supporting .row ul li {
+    margin: 0 0 20px 0;
+}
+.supporting .row ul li h4 span {
+    border-bottom: 2px solid #1a77ff;
+}
+.supporting .row .col-md-4 {
+    background: #152230;
+    padding: 20px 40px 40px 40px;
+  color:white;
+}
+.supporting .row .col-md-12{
+  margin-left:-15px;
+}
+
+
+
+.footer{
+    background:black;
+    padding:40px 0;
+    
+}
+.footer .container 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.footer ul a
+{
+   color:white;
+}
+
+.footer ul
+{
+  list-style:none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display:inline;
+ }
+.footer p{
+  float:right;
+  color:white;
+}

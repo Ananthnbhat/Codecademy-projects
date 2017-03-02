@@ -1,0 +1,136 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+  background-color:#000;
+}
+
+.container {
+  max-width: 970px;
+}
+.supporting h1 h2 p,.supporting .row img,
+.supporting {
+  background-image: url("s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png");
+  background-size: 141px 142px;
+  text-align:center;
+  position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+  color: #333;
+}
+
+.supporting p{font-size: 18px;}
+
+.jumbotron{
+  background-color:#000;
+}
+
+.jumbotron .btn1
+{
+  border:1px solid #0393FF;
+  color: #0393ff;
+  background: transparent;
+  border-radius: 2px;
+  padding: 8px 20px;
+  
+  text-decoration:none;
+  }
+
+.jumbotron .btn
+{
+  margin-right:10px;
+  color:white;
+}
+
+.jumbotron .btn1:hover{
+  background-color:#0393ff;
+  color:white;
+  text-decoration:none;
+}
+
+.jumbotron .btn:hover{
+  color:#0393ff;
+}
+.jumbotron .main{
+  text-align:center;
+}
+
+
+.jumbotron .main h1
+{
+  color:#fff;
+  
+  font-size:63px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+#search {
+    background: transparent;
+    border: 0px;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    margin: 60px 20px;
+    width: 400px;
+}
+
+#search:focus 
+{
+    border-bottom: 1px solid #0393ff;
+    box-shadow: 0px 0px 0px;
+    outline: 0px;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.supporting .thumbnail > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+  display: block;
+  vertical-align: middle;
+  
+}
+
+.supporting h2, .feature h1 {
+    color: #0393ff;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.feature p{font-size: 18px;}
+
+.feature
+{
+  text-align:center;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg");
+      background-size: cover;
+    height: 380px;
+    padding: 100px 0 0 0;
+}
+
+
+.footer .row h3
+{
+ color: #fff;
+font-size: 18px;
+font-weight: 300;
+  margin-left:35px;
+}
+
+.footer .row ul li
+{
+  list-style:none;
+  padding-left:0px;
+  color: #0393ff
+}
